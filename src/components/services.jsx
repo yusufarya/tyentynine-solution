@@ -7,7 +7,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Layanan unggulan yang kami sediakan.
+            Solusi Lengkap untuk Website Bisnis Anda.
           </p>
         </div>
         <div className="row">

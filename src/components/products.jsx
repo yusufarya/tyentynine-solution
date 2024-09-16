@@ -12,7 +12,7 @@ export const Products = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
-                  <div className="product">
+                  <div className="product" style={{marginBottom: '30px', boxShadow: '1px 2px 3px #acacac', borderRadius: '4px', padding: '20px'}}>
                     <div className="product-image">
                       {" "}
                       <img src={d.img} alt="" />{" "}
