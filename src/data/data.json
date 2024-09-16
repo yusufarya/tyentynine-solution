@@ -6,10 +6,18 @@
   "About": {
     "paragraph": "Kami adalah pembuatan jasa web yang berfokus pada penyediaan layanan pembuatan website yang profesional dan sesuai kebutuhan bisnis Anda. Dengan tim yang berpengalaman dan kreatif, kami berkomitmen untuk menghadirkan solusi digital yang inovatif dan efektif.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      {
+        "label": "Experienced Team",
+        "desc": "Kami memiliki tim yang berpengalaman dan ahli di bidangnya, siap membantu Anda mencapai solusi digital yang optimal."
+      },
+      {
+        "label": "Tailored Solutions",
+        "desc": "Setiap website yang kami buat disesuaikan dengan kebutuhan spesifik bisnis Anda, memastikan hasil yang relevan dan efektif."
+      },
+      {
+        "label": "Innovative Approach",
+        "desc": "Kami menyediakan dukungan teknis yang cepat dan responsif, siap membantu Anda kapan pun dibutuhkan."
+      }
     ],
     "Why2": [
       "Aliquip ex ea commodo",
@@ -69,50 +77,56 @@
     {
       "icon": "fa fa-laptop",
       "name": "Pembuatan Website Custom",
-      "text": "Desain dan pengembangan website sesuai kebutuhan spesifik bisnis Anda."
+      "text": "Desain dan pengembangan website sesuai dengan karakter bisnis Anda, baik untuk perusahaan kecil, startup, maupun enterprise besar."
     },
     {
       "icon": "fa fa-database",
       "name": "Website Maintenance",
-      "text": "Layanan pemeliharaan website untuk memastikan performa dan keamanan optimal."
+      "text": "Layanan pemeliharaan website berkelanjutan untuk menjaga performa, keamanan, dan ketersediaan konten terbaru."
     },
     {
       "icon": "fa fa-search",
       "name": "SEO Optimization",
-      "text": "Pengoptimalan mesin pencari untuk meningkatkan visibilitas website Anda di internet."
+      "text": "Optimasi mesin pencari yang disesuaikan untuk meningkatkan visibilitas website Anda, meningkatkan trafik organik, dan menempatkan Anda di posisi teratas pencarian."
     },
     {
       "icon": "fa fa-shopping-cart",
       "name": "E-Commerce Solutions",
-      "text": "Platform e-commerce yang aman dan mudah digunakan untuk meningkatkan penjualan online."
+      "text": "Pembangunan platform e-commerce dengan integrasi pembayaran yang aman dan pengelolaan produk yang mudah, sehingga bisnis online Anda dapat berkembang lebih cepat."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Fast Turnaround Time",
+      "text": "Pengerjaan website dengan waktu yang efisien tanpa mengorbankan kualitas, memastikan bisnis Anda segera hadir secara online."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "User-Friendly Design",
+      "text": "Setiap website yang kami kembangkan didesain dengan tampilan yang mudah digunakan oleh pengunjung, memastikan pengalaman yang menyenangkan di seluruh perangkat."
     }
   ],
   "Products": [
     {
       "img": "img/products/dashboard_medicare.png",
-      "name": "E-Clinic Medicare",
+      "name": "Medicare - Management E-Clinic",
       "text": "Aplikasi berbasis web untuk manajemen klinik online.",
       "url": "https://my.medicare.29digitec.com/"
     },
     {
       "img": "img/products/dashboard_29studio.png",
-      "name": "Studio Booking",
+      "name": "Manajemen Booking Studio Musik",
       "text": "Aplikasi berbasis web untuk pemesanan studio online.",
       "url": "https://elfana-studio.com/"
     },
     {
+      "img": "img/products/web_studio_foto.png",
+      "name": "Web Pemesanan Studio Foto & MUA",
+      "text": "Aplikasi berbasis web untuk pemesanan studio online.",
+      "url": "http://103.59.94.161:90/"
+    },
+    {
       "img": "img/products/uptd.png",
-      "name": "Pendaftaran Pelatihan",
+      "name": "Manajemen Pendaftaran Pelatihan",
       "text": "Aplikasi berbasis web untuk pendaftaran pelatihan pelayanan kerja UPTD secara online.",
       "url": "https://uptd-tangerangkab.com/"
     }
@@ -120,23 +134,23 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Layanan yang luar biasa! Website yang mereka buat sangat responsif dan sesuai dengan kebutuhan bisnis saya. Komunikasi yang baik dan hasil yang sangat memuaskan..\"",
+      "name": "Andi Wijaya"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Proses kerja mereka sangat profesional dan cepat. Saya sangat senang dengan hasil akhir website e-commerce saya, yang user-friendly dan aman.\"",
+      "name": "Budi Santoso"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Layanan maintenance mereka memastikan website saya selalu berjalan optimal tanpa ada gangguan. Saya sangat merekomendasikan mereka.\"",
+      "name": "Rizky Pratama"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Dari awal konsultasi hingga peluncuran, tim mereka sangat ramah dan membantu. Website custom yang mereka buat benar-benar merepresentasikan identitas bisnis saya.\"",
+      "name": "Dewi Kartika"
     },
     {
       "img": "img/testimonials/05.jpg",
@@ -145,8 +159,8 @@
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Hasil yang sangat memuaskan! Website saya tidak hanya terlihat modern tapi juga sangat cepat diakses. Saya sangat puas dengan layanan yang mereka berikan.\"",
+      "name": "Nina Putri"
     }
   ],
   "Team": [
