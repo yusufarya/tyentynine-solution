@@ -24,10 +24,12 @@ export const Contact = (props) => {
     /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ 
     
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_sfzb5hh", "template_qifvh8d", e.target, "TzuVovyyTTvNesFdV")
       .then(
         (result) => {
           console.log(result.text);
+          alert('Message Sent Successfully!')
+          window.location.reload()
           clearState();
         },
         (error) => {
@@ -42,10 +44,9 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Hubungi Kami</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Silakan isi formulir di bawah ini untuk mengirim email kepada kami dan kami akan menghubungi Anda sesegera mungkin.
                 </p>
               </div>
               <form name="sentMessage" validate='true' onSubmit={handleSubmit}>
@@ -130,22 +131,22 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"} target="_blank">
+                    <a href={props.data ? props.data.facebook : "/"} target="_blank" rel="nofollow">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.instagram : "/"} target="_blank">
+                    <a href={props.data ? props.data.instagram : "/"} target="_blank" rel="nofollow">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"} target="_blank">
+                    <a href={props.data ? props.data.twitter : "/"} target="_blank" rel="nofollow">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"} target="_blank">
+                    <a href={props.data ? props.data.youtube : "/"} target="_blank" rel="nofollow">
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
