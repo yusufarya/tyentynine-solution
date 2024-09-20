@@ -133,40 +133,35 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/testimonials/userDefault.png",
       "text": "\"Layanan yang luar biasa! Website yang mereka buat sangat responsif dan sesuai dengan kebutuhan bisnis saya. Komunikasi yang baik dan hasil yang sangat memuaskan..\"",
       "name": "Andi Wijaya"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/testimonials/userDefault.png",
       "text": "\"Proses kerja mereka sangat profesional dan cepat. Saya sangat senang dengan hasil akhir website e-commerce saya, yang user-friendly dan aman.\"",
       "name": "Budi Santoso"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/testimonials/userDefault.png",
       "text": "\"Layanan maintenance mereka memastikan website saya selalu berjalan optimal tanpa ada gangguan. Saya sangat merekomendasikan mereka.\"",
       "name": "Rizky Pratama"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/testimonials/userDefault.png",
       "text": "\"Dari awal konsultasi hingga peluncuran, tim mereka sangat ramah dan membantu. Website custom yang mereka buat benar-benar merepresentasikan identitas bisnis saya.\"",
       "name": "Dewi Kartika"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/testimonials/userDefault.png",
       "text": "\"Hasil yang sangat memuaskan! Website saya tidak hanya terlihat modern tapi juga sangat cepat diakses. Saya sangat puas dengan layanan yang mereka berikan.\"",
       "name": "Nina Putri"
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "img": "img/team/me.jpg",
+      "name": "Yusuf Aryadilla",
       "job": "Director"
     },
     {
